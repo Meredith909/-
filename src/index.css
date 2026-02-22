@@ -30,8 +30,8 @@
     --destructive: 0 72% 56%;
     --destructive-foreground: 0 0% 100%;
 
-    --success: 140 47% 85%;
-    --success-foreground: 150 30% 25%;
+    --success: 152 60% 42%;
+    --success-foreground: 0 0% 100%;
 
     --warning: 38 92% 55%;
     --warning-foreground: 0 0% 10%;
@@ -58,7 +58,7 @@
     --gradient-primary: linear-gradient(135deg, hsl(213 79% 65%), hsl(225 70% 72%));
     --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(220 20% 97%));
     --gradient-urgent: linear-gradient(135deg, hsl(0 72% 56%), hsl(20 80% 55%));
-    --gradient-success: linear-gradient(135deg, hsl(140 47% 85%), hsl(150 50% 78%));
+    --gradient-success: linear-gradient(135deg, hsl(152 60% 42%), hsl(170 55% 48%));
     --gradient-accent: linear-gradient(135deg, hsl(30 95% 60%), hsl(40 95% 55%));
 
     /* Shadows */
