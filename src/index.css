@@ -15,7 +15,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222 47% 11%;
 
-    --primary: 225 65% 52%;
+    --primary: 213 79% 65%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 220 14% 92%;
@@ -30,8 +30,8 @@
     --destructive: 0 72% 56%;
     --destructive-foreground: 0 0% 100%;
 
-    --success: 152 60% 42%;
-    --success-foreground: 0 0% 100%;
+    --success: 140 47% 85%;
+    --success-foreground: 150 30% 25%;
 
     --warning: 38 92% 55%;
     --warning-foreground: 0 0% 10%;
@@ -41,7 +41,7 @@
 
     --border: 220 13% 90%;
     --input: 220 13% 90%;
-    --ring: 225 65% 52%;
+    --ring: 213 79% 65%;
 
     --radius: 1rem;
 
@@ -55,16 +55,16 @@
     --sidebar-ring: 217.2 91.2% 59.8%;
 
     /* Custom gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(225 65% 52%), hsl(250 70% 60%));
+    --gradient-primary: linear-gradient(135deg, hsl(213 79% 65%), hsl(225 70% 72%));
     --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(220 20% 97%));
     --gradient-urgent: linear-gradient(135deg, hsl(0 72% 56%), hsl(20 80% 55%));
-    --gradient-success: linear-gradient(135deg, hsl(152 60% 42%), hsl(170 55% 48%));
+    --gradient-success: linear-gradient(135deg, hsl(140 47% 85%), hsl(150 50% 78%));
     --gradient-accent: linear-gradient(135deg, hsl(30 95% 60%), hsl(40 95% 55%));
 
     /* Shadows */
-    --shadow-card: 0 4px 24px -4px hsl(225 65% 52% / 0.08), 0 1px 4px hsl(0 0% 0% / 0.04);
-    --shadow-card-hover: 0 12px 40px -8px hsl(225 65% 52% / 0.15), 0 4px 12px hsl(0 0% 0% / 0.06);
-    --shadow-float: 0 20px 60px -12px hsl(225 65% 52% / 0.25);
+    --shadow-card: 0 4px 24px -4px hsl(213 79% 65% / 0.08), 0 1px 4px hsl(0 0% 0% / 0.04);
+    --shadow-card-hover: 0 12px 40px -8px hsl(213 79% 65% / 0.15), 0 4px 12px hsl(0 0% 0% / 0.06);
+    --shadow-float: 0 20px 60px -12px hsl(213 79% 65% / 0.25);
   }
 
   .dark {
@@ -74,7 +74,7 @@
     --card-foreground: 210 40% 96%;
     --popover: 224 25% 12%;
     --popover-foreground: 210 40% 96%;
-    --primary: 225 65% 60%;
+    --primary: 213 79% 70%;
     --primary-foreground: 0 0% 100%;
     --secondary: 224 20% 18%;
     --secondary-foreground: 210 40% 96%;
@@ -86,7 +86,7 @@
     --destructive-foreground: 210 40% 96%;
     --border: 224 20% 20%;
     --input: 224 20% 20%;
-    --ring: 225 65% 60%;
+    --ring: 213 79% 70%;
   }
 }
 

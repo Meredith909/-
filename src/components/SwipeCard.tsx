@@ -35,7 +35,7 @@ export default function SwipeCard({ card, onSwipe, isTop, index }: SwipeCardProp
   const postponeOpacity = useTransform(x, [-200, -100, 0], [1, 0.8, 0]);
   const doneOpacity = useTransform(y, [-200, -100, 0], [1, 0.8, 0]);
 
-  const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(true);
 
   const FileIcon = card.fileType ? fileIcons[card.fileType] || FileText : FileText;
 

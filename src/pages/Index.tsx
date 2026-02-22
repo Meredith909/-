@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Sparkles } from 'lucide-react';
 import CardStack from '@/components/CardStack';
+import logoImg from '@/assets/logo.png';
 import TaskPool from '@/components/TaskPool';
 import EveningReminder from '@/components/EveningReminder';
 import MonthlyReport from '@/components/MonthlyReport';
@@ -28,9 +28,7 @@ const Index = () => {
       {/* Header */}
       <header className="flex items-center justify-between px-5 pt-6 pb-3">
         <div className="flex items-center gap-2.5">
-          <div className="w-9 h-9 rounded-xl gradient-primary flex items-center justify-center">
-            <Sparkles className="w-5 h-5 text-primary-foreground" />
-          </div>
+          <img src={logoImg} alt="QQ不漏" className="w-10 h-10 rounded-xl object-cover" />
           <div>
             <h1 className="text-base font-bold text-foreground tracking-tight font-display">QQ 不漏</h1>
             <p className="text-[10px] text-muted-foreground -mt-0.5">学习执行保障系统</p>
