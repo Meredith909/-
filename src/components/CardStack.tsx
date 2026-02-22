@@ -95,29 +95,29 @@ export default function CardStack({ onAction }: CardStackProps) {
       <div className="flex items-center justify-center gap-6 pt-4">
         <button
           onClick={() => handleSwipe('left')}
-          className="w-14 h-14 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:bg-secondary/80 transition-all hover:scale-110 active:scale-95"
+          className="w-12 h-12 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:bg-secondary/80 transition-all hover:scale-110 active:scale-95"
         >
-          <ArrowLeft className="w-6 h-6" />
-        </button>
-        <button
-          onClick={() => handleSwipe('up')}
-          className="w-12 h-12 rounded-full gradient-primary flex items-center justify-center text-primary-foreground hover:scale-110 transition-all active:scale-95"
-        >
-          <ArrowUp className="w-5 h-5" />
+          <ArrowLeft className="w-5 h-5" />
         </button>
         <button
           onClick={() => handleSwipe('right')}
-          className="w-14 h-14 rounded-full gradient-success flex items-center justify-center text-success-foreground hover:scale-110 transition-all active:scale-95"
+          className="w-16 h-16 rounded-full gradient-success flex items-center justify-center text-success-foreground hover:scale-110 transition-all active:scale-95 shadow-lg"
         >
-          <Check className="w-6 h-6" />
+          <Check className="w-7 h-7" />
+        </button>
+        <button
+          onClick={() => handleSwipe('up')}
+          className="w-12 h-12 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:bg-secondary/80 transition-all hover:scale-110 active:scale-95"
+        >
+          <ArrowUp className="w-5 h-5" />
         </button>
       </div>
 
       {/* Legend */}
       <div className="flex items-center justify-center gap-4 pt-3 pb-1">
         <span className="text-[10px] text-muted-foreground">← 稍后</span>
-        <span className="text-[10px] text-muted-foreground">↑ 已处理</span>
-        <span className="text-[10px] text-muted-foreground">✓ 收藏 →</span>
+        <span className="text-[10px] text-muted-foreground">✓ 收藏</span>
+        <span className="text-[10px] text-muted-foreground">已处理 →</span>
       </div>
     </div>
   );
